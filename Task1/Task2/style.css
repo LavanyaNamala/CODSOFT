@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+  color: white;
+  text-align: center;
+}
+
+.top-bar {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 50px 20px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background: white;
+  color: #fc4a1a;
+}
+
+.btn-secondary {
+  background: #fc4a1a;
+  color: white;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #f7b733;
+  color: white;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+/* About Section */
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 300px; /* Added padding for space inside the section */
+  gap: 10px; Space between the text and the image
+}
+
+.about-text {
+  max-width: 50%; /* Adjust width for proper alignment */
+  flex: 1; /* Allow the text to take equal space */
+}
+
+.about-image {
+  flex: 1; /* Allow the image to take equal space */
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px; /* Restrict the maximum width of the image */
+  border-radius: 10px;
+}
+.services {
+  text-align: center;
+  padding: 40px 20px; /* Padding around the section */
+  background-color: #f9f9f9; /* Light background for contrast */
+  display: flex; /* Enable flexbox */
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  justify-content: center; /* Center-align the boxes horizontally */
+  gap: 20px; /* Add space between the boxes */
+}
+
+.services h2 {
+  width: 100%; /* Ensure the heading takes full width */
+  font-size: 2.5rem;
+  margin-bottom: 30px; /* Add spacing below the heading */
+  color: #333;
+}
+
+.services .service {
+  flex: 1 1 calc(33.33% - 40px); /* 3 boxes per row with spacing */
+  max-width: 300px; /* Optional: Limit the width of each box */
+  margin: 0; /* Remove default margin */
+  padding: 20px;
+  background-color: #d5bbbb;
+  box-shadow: 0 4px 6px rgba(75, 210, 18, 0.1); /* Add a subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.services .service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff6f61; /* Highlighted color for service titles */
+}
+
+.services .service p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.ser {
+  background-color: #44aabc;
+  border-radius: 10px;
+}
+
+.ser:hover {
+  background-color: #e6cac2;
+}
+.para{
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2d3436;
+  color: white;
+}
